@@ -63,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .data-container .card,
@@ -142,12 +143,20 @@
 /* mobile design  */
 
 @media(max-width: 375px) {
+    * {
+        font-size: 15px!important;
+    }
+    .data-container {
+        padding: 50px 32px;
+    }
+    .data-container .header p {
+        width: 100%;
+    }
     .data-container .card,
     .data-container .two-cards {
         width: 100%;
     }
-    .data-container .card,
-    {
+    .data-container .card {
         margin-bottom: 16px
     }
 }
