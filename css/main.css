@@ -1,0 +1,139 @@
+/* challenge NO:1 from frontend mentor
+    craeted by: Hussien Eid
+    created at: 26/2/2020
+*/
+
+
+/* general design */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* start the page design */
+
+.main-section {
+    background-color: #F9F9F9;
+}
+
+.data-container {
+    padding: 50px 100px;
+}
+
+
+/* start header design */
+
+.data-container .header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.data-container .header h2 {
+    font-size: 28px;
+    font-weight: 200;
+    color: #4C4E61;
+    text-transform: capitalize;
+}
+
+.data-container .header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4C4E61;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.data-container .header p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #A3A5AD;
+    width: 45%;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+
+/* start the cards style */
+
+.data-container .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-container .card,
+.data-container .two-cards {
+    width: 32%;
+    padding: 16px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 5px 4px rgba(221, 221, 221, 0.5);
+    -moz-box-shadow: 0px 4px 5px 4px rgba(221, 221, 221, 0.5);
+    box-shadow: 0px 4px 5px 4px rgba(221, 221, 221, 0.5);
+    margin: 0;
+    background-color: #fff
+}
+
+.data-container .two-cards {
+    padding: 0;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.data-container .two-cards .card {
+    width: 100%;
+}
+
+.data-container .two-cards .card:first-child {
+    margin-bottom: 16px;
+}
+
+.data-container .card h3 {
+    font-weight: 600;
+    color: #4C4E61;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.data-container .card p {
+    font-weight: 200;
+    color: #A3A5AD;
+    margin-bottom: 32px;
+}
+
+.data-container .card p::first-letter {
+    text-transform: uppercase;
+}
+
+.data-container .card .card-icon {
+    text-align: right;
+}
+
+.data-container .flex-container>.card:first-child {
+    border-top: 5px solid #45D3D3;
+}
+
+.data-container .flex-container>.card:last-child {
+    border-top: 5px solid #549DF2;
+}
+
+.data-container .flex-container .two-cards .card:first-child {
+    border-top: 5px solid #E95252
+}
+
+.data-container .flex-container .two-cards .card:last-child {
+    border-top: 5px solid #FCAF4A;
+}
