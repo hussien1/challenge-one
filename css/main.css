@@ -137,3 +137,13 @@
 .data-container .flex-container .two-cards .card:last-child {
     border-top: 5px solid #FCAF4A;
 }
+
+
+/* mobile design  */
+
+@media(max-width: 375px) {
+    .data-container .card,
+    .data-container .two-cards {
+        width: 100%;
+    }
+}
