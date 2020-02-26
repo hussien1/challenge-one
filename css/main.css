@@ -146,4 +146,8 @@
     .data-container .two-cards {
         width: 100%;
     }
+    .data-container .card,
+    {
+        margin-bottom: 16px
+    }
 }
